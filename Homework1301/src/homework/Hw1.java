@@ -2,7 +2,7 @@ package homework;
 
 import java.util.Scanner;
 
-public class HW1 {
+public class Hw1 {
 
 	/**
 	 * @param args
