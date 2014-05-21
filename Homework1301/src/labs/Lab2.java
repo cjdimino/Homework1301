@@ -16,7 +16,7 @@ public class Lab2 {
 		Scanner input = new Scanner(System.in);
 		
 		foot = input.nextDouble();
-		meter = .305*foot;
+		meter = (int)((.305 * foot) * 100) / 100.00;
 		
 		System.out.println("" + meter + " Meters");
 		
