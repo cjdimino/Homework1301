@@ -20,9 +20,6 @@ public class Lab2 {
 		
 		System.out.println("" + meter + " Meters");
 		
-		
-		
-
 	}
 
 }
