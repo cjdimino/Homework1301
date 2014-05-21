@@ -15,15 +15,17 @@ public class Hw2 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
+		//Initializing variables
 		int days;
 		int assignments;
 		double temperature;
 		boolean isRaining;
 		boolean doHomework = false;
 		
+		//initializing Scanner
 		Scanner input = new Scanner(System.in);
 		
-		
+		//Getting input from console
 		System.out.println("How many days until the assignment is due?");
 		days = input.nextInt();
 		
@@ -36,7 +38,7 @@ public class Hw2 {
 		System.out.println("Is it raining?");
 		isRaining = input.nextBoolean();
 		
-		
+		//computing doHomework
 		if( days < 5)
 			doHomework = true;
 		
@@ -47,6 +49,7 @@ public class Hw2 {
 			doHomework = true;
 		
 		
+		//Outputting results
 		if(doHomework)
 			System.out.println("You should speed up");
 		else
