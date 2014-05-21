@@ -1,5 +1,10 @@
 package homework;
 
+//Carl Dimino
+//CSCI 1301 A
+//5-21-2014
+//Hw2 Takes a variety of inputs and decides whether the user should speed up his or her work on school assignments
+
 import java.util.Scanner;
 
 public class Hw2 {
@@ -14,32 +19,39 @@ public class Hw2 {
 		int assignments;
 		double temperature;
 		boolean isRaining;
-		Scanner input = new Scanner(System.in);
 		boolean doHomework = false;
+		
+		Scanner input = new Scanner(System.in);
+		
 		
 		System.out.println("How many days until the assignment is due?");
 		days = input.nextInt();
+		
 		System.out.println("How many assignments are due in all classes?");
 		assignments = input.nextInt();
+		
 		System.out.println("What is the current temperature?");
 		temperature = input.nextDouble();
+		
 		System.out.println("Is it raining?");
 		isRaining = input.nextBoolean();
 		
+		
 		if( days < 5)
 			doHomework = true;
+		
 		if(assignments > 4)
 			doHomework = true;
+		
 		if(isRaining && temperature < 50.0)
 			doHomework = true;
+		
 		
 		if(doHomework)
 			System.out.println("You should speed up");
 		else
 			System.out.println("Take your time");
 		
-		
-
 	}
 
 }
