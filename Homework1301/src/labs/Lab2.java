@@ -1,5 +1,10 @@
 package labs;
 
+//Carl Dimino
+//CSCI 1301 A
+//5-21-2014
+//Lab2 converts feet to meters
+
 import java.util.Scanner;
 
 public class Lab2 {
